@@ -11,8 +11,9 @@
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "start": "nodemon server",
-    "build": "webpack -w",
+    "start": "node server",
+    "devstart": "nodemon server",
+    "build": "webpack",
     "wds": "webpack-dev-server --progress"
   },
   "devDependencies": {
