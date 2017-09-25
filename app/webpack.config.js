@@ -16,7 +16,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.(jsx?)$/,
         loader: 'babel-loader',
